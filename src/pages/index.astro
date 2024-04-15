@@ -1,0 +1,50 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+---
+
+<Layout title="Frontend Mentor | Profile card component">
+  <main
+    class="mt-[9.12rem] flex justify-center itmes-center mx-auto lg:mt-[10.81rem]"
+  >
+    <section class="">
+      <div class="">
+        <img
+          src="/public/images/bg-pattern-top.svg"
+          alt=""
+          class="absolute -z-50 bottom-[16rem] -left-[18rem]"
+        />
+      </div>
+    </section>
+    <section
+      class="w-[20.375rem] h-[23.375rem] rounded-[0.9375rem] bg-[#fff] card-warpper lg:w-[21.875rem] lg:h-[23.375rem] z-50"
+    >
+      <div class="">
+        <img
+          src="/images/bg-pattern-card.svg"
+          alt="bg-pattern-card"
+          class="rounded-t-[0.9375rem]"
+        />
+      </div>
+    </section>
+    <section class="">
+      <div class="">
+        <img
+          src="/public/images/bg-pattern-bottom.svg"
+          alt=""
+          class="absolute -z-50 top-[24rem] right-0"
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  body {
+    background-color: #19a1ae;
+    position: relative;
+  }
+  .card-warpper {
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  }
+</style>
